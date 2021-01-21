@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cheat-sheets"
+version = "0.1.0"
+description = ""
+authors = ["Josh Thomas <git@joshuadavidthomas.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mkdocs = "^1.1.2"
+mkdocs-material = "^6.2.3"
+mkdocs-git-revision-date-plugin = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[[tool.poetry.source]]
+default = true
+name = 'pypi_with_cert'
+url = 'https://pypi.org/simple/'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
