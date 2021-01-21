@@ -1,7 +1,7 @@
-site_name: Docs
+site_name: Cheat Sheets
 
-repo_url: https://github.com/elderlydoofus/docs
-repo_name: elderlydoofus/docs
+repo_url: https://github.com/elderlydoofus/cheat-sheets
+repo_name: elderlydoofus/cheat-sheets
 
 theme:
   name: material
